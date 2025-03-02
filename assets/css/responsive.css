@@ -1,0 +1,131 @@
+@media only screen and (min-width: 1200px) {
+    
+    header {
+        height: 80px;
+        padding: 0 5%;
+        .menu-bar {
+                display: none;
+        }
+        ul {
+            position: static;
+            display: flex;
+            width: 35%;
+            height: 100%;
+            justify-content: space-between;
+            flex-direction: row;
+            background: transparent;
+            li {
+                a {
+                    color: black;
+                }
+            }
+            .appointment-menu {
+                display: none;
+            }
+            h1 {
+                display: none;
+            }
+        }
+    }
+
+    main {
+        width: 100%;
+        height: calc(100% - 80px);
+        margin-top: 80px;
+    }
+
+    section {
+        /* height: 100%; */
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 0 5%;
+
+        aside {
+            width: 48%;
+            display: block;
+            b {
+                margin: 0;
+            }
+            h1 {
+                font-size: 5rem;
+                text-align: left;
+                margin: 2rem 0;
+            }
+            .btn-container {
+                gap: 3rem;
+            }
+        }
+    }
+
+
+    form {
+        position: absolute;
+        width: 65%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        gap: 1rem;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+        bottom: -20%;
+        transition: .3s all ease;
+        div {
+            width: 18%;
+        }
+        button {
+            margin-top: 0;
+        }
+        .close {
+            display: none;
+        }
+    }
+
+    .appointment-form {
+        display: flex;
+        opacity: 1;
+    }
+
+#about-sec {
+    flex-direction: row-reverse;
+    gap: 0;
+}
+
+ .about-content {
+    align-items: start;
+    text-align: left;
+    h2 {
+        br {
+            display: block;
+        }
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    ul {
+        width: 100%;
+    }
+ }
+
+
+ #marquee {
+    padding: 1rem 0;
+}
+
+article {
+    ul{
+        li{
+            font-size: 3rem;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+  }
